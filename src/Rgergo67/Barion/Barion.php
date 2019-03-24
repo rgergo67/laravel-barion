@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelHungary\Barion;
+namespace Rgergo67\Barion;
 
 class Barion extends BarionClient
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelHungary\Barion\Enums;
+namespace Rgergo67\Barion\Enums;
 
 class Locale
 {

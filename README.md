@@ -1,4 +1,4 @@
-# Use the Barion API with Laravel
+# Fork of laravelhungary/laravel-barion
 
 [![Travis](https://img.shields.io/travis/laravelhungary/laravel-barion.svg?style=flat-square)](https://travis-ci.org/laravelhungary/laravel-barion)
 [![StyleCI](https://styleci.io/repos/72787922/shield?branch=master)](https://styleci.io/analyses/XZoNV6#)
@@ -6,12 +6,14 @@
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Packagist](https://img.shields.io/packagist/v/laravelhungary/laravel-barion.svg?style=flat-square)](https://packagist.org/packages/laravelhungary/laravel-barion)
 
+## Just for fun, don't use in production!
+
 Laravel-Barion is provides an easy way to use the Barion API with Laravel applications.
 Under the hood there is just a thin wrapper to make API calls simple.
- 
+
 ## Installation
 
-1. Install the package using composer: 
+1. Install the package using composer:
 
 `composer require laravelhungary/laravel-barion`
 
@@ -30,18 +32,18 @@ LaravelHungary\Barion\BarionServiceProvider::class,
 ## Configuration
 
 Laravel-Barion comes preconfigured, you only need to set your POS key in the
- .env file: 
- 
+ .env file:
+
  `BARION_POS_KEY=<my pos key>`
- 
+
  The Barion environment defaults to `test.barion.com`. To use the live instead,
- set 
- 
+ set
+
  `BARION_LIVE_ENV=true`.
- 
- If you'd like to tweak the configuration values, publish 
+
+ If you'd like to tweak the configuration values, publish
  the config file:
- 
+
  `artisan vendor:publish --provider="LaravelHungary\Barion\BarionServiceProvider"`
 
 ## Usage

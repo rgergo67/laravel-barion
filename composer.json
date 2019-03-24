@@ -1,11 +1,11 @@
 {
-  "name": "laravelhungary/laravel-barion",
+  "name": "rgergo67/laravel-barion",
   "description": "Simple Laravel wrapper for the API of the Barion online payment system",
   "license": "MIT",
   "authors": [
     {
-      "name": "Zsolt Fekete (nxu)",
-      "email": "nxu@nxu.hu",
+      "name": "Ratting Gergely",
+      "email": "rgergo67@gmail.com",
       "role": "Developer"
     }
   ],
@@ -17,7 +17,7 @@
   },
   "autoload": {
     "psr-4": {
-      "LaravelHungary\\Barion\\": "src/LaravelHungary/Barion"
+      "Rgergo67\\Barion\\": "src/Rgergo67/Barion"
     }
   },
   "require-dev": {
@@ -26,7 +26,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "LaravelHungary\\Barion\\BarionServiceProvider"
+        "Rgergo67\\Barion\\BarionServiceProvider"
       ]
     }
   }

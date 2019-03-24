@@ -5,8 +5,8 @@ use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
 use GuzzleHttp\Psr7\Response;
-use LaravelHungary\Barion\BarionClient;
-use LaravelHungary\Barion\Enums\BarionEndpoint;
+use Rgergo67\Barion\BarionClient;
+use Rgergo67\Barion\Enums\BarionEndpoint;
 
 class BarionClientTest extends PHPUnit_Framework_TestCase
 {
